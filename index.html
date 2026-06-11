@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Chhotelal Kushwaha | Portfolio</title>
+
+  <meta name="description" content="Chhotelal Kushwaha - B.Tech CSE Student and Full Stack Web Developer Portfolio. Skilled in HTML, CSS, JavaScript, Node.js, Express.js, MongoDB and REST APIs.">
+  <meta name="keywords" content="Chhotelal Kushwaha, Full Stack Developer, Web Developer, Portfolio, HTML, CSS, JavaScript, Node.js, MongoDB, Internship">
+  <meta name="author" content="Chhotelal Kushwaha">
+
+  <meta property="og:title" content="Chhotelal Kushwaha | Full Stack Developer Portfolio">
+  <meta property="og:description" content="Portfolio website of Chhotelal Kushwaha, B.Tech CSE Student and Full Stack Developer.">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-circle"></div>
+  <p>Loading Portfolio...</p>
+</div>
+
+<div class="bg-animation"></div>
+
+<header>
+  <nav>
+    <h2 class="logo">Chhotelal<span>.</span></h2>
+    <ul id="menu">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="menuBtn">☰</button>
+  </nav>
+</header>
+
+<section id="home" class="hero reveal">
+  <div class="hero-text">
+    <p class="tag">Hello, I am</p>
+    <h1>Chhotelal Kushwaha</h1>
+    <h2><span id="typing"></span></h2>
+    <p>I am a B.Tech CSE student and Full Stack Developer. I create modern, responsive and user-friendly web applications.</p>
+    <div class="buttons">
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="assets/resume.pdf" download class="btn">Download Resume</a>
+      <a href="assets/resume.pdf" target="_blank" class="btn outline">Preview Resume</a>
+      <a href="#projects" class="btn outline">View Projects</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/karan2027" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://linkedin.com/in/chhotelal-kushwaha-2902a3329" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="mailto:chhotelalkushwahak9628@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="https://wa.me/917317038848?text=Hello%20Chhotelal,%20I%20saw%20your%20portfolio%20and%20want%20to%20contact%20you." target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+    </div>
+  </div>
+  <div class="hero-img"><img src="assets/profile.png" alt="Chhotelal Kushwaha"></div>
+</section>
+
+<section id="about" class="reveal">
+  <h2 class="section-title">About Me</h2>
+  <div class="glass-card"><p>I am a motivated B.Tech Computer Science and Engineering student interested in full-stack web development. I am seeking an internship opportunity to apply my technical knowledge and gain real industry experience.</p></div>
+</section>
+
+<section id="services" class="reveal">
+  <h2 class="section-title">What I Do</h2>
+  <div class="grid">
+    <div class="service-card"><h3><i class="fa-solid fa-code"></i> Frontend Development</h3><p>Modern, responsive and attractive website UI using HTML, CSS and JavaScript.</p></div>
+    <div class="service-card"><h3><i class="fa-solid fa-server"></i> Backend Development</h3><p>Server-side development using Node.js, Express.js and REST APIs.</p></div>
+    <div class="service-card"><h3><i class="fa-solid fa-laptop-code"></i> Full Stack Website</h3><p>Complete website with frontend, backend, database and authentication.</p></div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <h2 class="section-title">Skills</h2>
+  <div class="skill-bar"><p>HTML <span>90%</span></p><div><b style="width:90%"></b></div></div>
+  <div class="skill-bar"><p>CSS <span>85%</span></p><div><b style="width:85%"></b></div></div>
+  <div class="skill-bar"><p>JavaScript <span>80%</span></p><div><b style="width:80%"></b></div></div>
+  <div class="skill-bar"><p>Node.js <span>75%</span></p><div><b style="width:75%"></b></div></div>
+  <div class="skills-container">
+    <span><i class="fa-brands fa-react"></i> React.js</span><span>Express.js</span><span>MongoDB</span><span>PostgreSQL</span><span>REST API</span><span>JWT</span><span><i class="fa-brands fa-git-alt"></i> Git</span><span><i class="fa-brands fa-github"></i> GitHub</span>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <h2 class="section-title">Projects</h2>
+  <div class="filter-buttons"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="fullstack">Full Stack</button><button class="filter-btn" data-filter="frontend">Frontend</button></div>
+  <div class="projects-grid">
+    <div class="project-card" data-category="fullstack">
+      <img src="assets/electroshop.png" alt="ElectroShop Screenshot" class="project-img">
+      <div class="project-header"><h3>ElectroShop — Electronics E-Commerce Website</h3><span class="status completed">Completed</span></div>
+      <p>Full-stack electronics e-commerce website with login, cart, orders, product search, filtering, reviews and responsive UI.</p>
+      <p><b>Tech:</b> HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, JWT</p>
+      <a href="https://github.com/karan2027" target="_blank" class="btn">GitHub</a>
+      <a href="#" target="_blank" class="btn outline">Live Demo</a>
+      <button class="btn outline gallery-btn" data-gallery="electroshop">View Screenshots</button>
+    </div>
+    <div class="project-card" data-category="frontend">
+      <img src="assets/portfolio.png" alt="Portfolio Screenshot" class="project-img">
+      <div class="project-header"><h3>Portfolio Website</h3><span class="status completed">Completed</span></div>
+      <p>Personal portfolio website to show skills, projects, resume, education and contact details.</p>
+      <p><b>Tech:</b> HTML, CSS, JavaScript</p>
+      <a href="#" target="_blank" class="btn">GitHub</a>
+      <button class="btn outline gallery-btn" data-gallery="portfolio">View Screenshots</button>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="reveal">
+  <h2 class="section-title">Education</h2>
+  <div class="timeline">
+    <div class="edu-card"><h3>B.Tech Computer Science & Engineering</h3><p>Hemvati Nandan Bahuguna Garhwal University</p><p>2023 - 2027 | 77.30% up to V Semester</p><div class="result-links"><a href="https://drive.google.com/file/d/1o5x56ymcWNr8CcEMNJKZc-qrhOUCAVQt/view?usp=drivesdk" target="_blank" class="result-btn">5th Sem</a><a href="https://drive.google.com/file/d/1M8cCSnNs15pK4WPNHISRzG_un5QhhY_V/view?usp=drivesdk" target="_blank" class="result-btn">4th Sem</a><a href="https://drive.google.com/file/d/1x7p0F2MuZbP5FvlSIdvWPRzTN15dFVmU/view?usp=drivesdk" target="_blank" class="result-btn">3rd Sem</a><a href="https://drive.google.com/file/d/1JnvecfcxX-LVlUz2sJnBhFj-rP-qwZqn/view?usp=drivesdk" target="_blank" class="result-btn">2nd Sem</a><a href="https://drive.google.com/file/d/1fNK26wmJM6LKblguRNpo0JzglwWvHDJB/view?usp=drivesdk" target="_blank" class="result-btn">1st Sem</a></div></div>
+    <div class="edu-card"><h3>Class 12th</h3><p>UP Board | Science with Mathematics | 73.60%</p><div class="result-links"><a href="https://drive.google.com/file/d/1ebPNM57VCAF7VG-sWc4otaiqG7O-sqc5/view?usp=drivesdk" target="_blank" class="result-btn">View Result</a></div></div>
+    <div class="edu-card"><h3>Class 10th</h3><p>UP Board | 81.83%</p><div class="result-links"><a href="https://drive.google.com/file/d/1o5x56ymcWNr8CcEMNJKZc-qrhOUCAVQt/view?usp=drivesdk" target="_blank" class="result-btn">View Result</a></div></div>
+  </div>
+</section>
+
+<section id="certificates" class="reveal"><h2 class="section-title">Certificates</h2><div class="grid"><div class="certificate-card"><h3>Coming Soon</h3><p>Currently learning and building projects. Certificates will be added later.</p></div><div class="certificate-card"><h3>Internship Certificate</h3><p>Will be added after internship completion.</p></div><div class="certificate-card"><h3>Course Certificate</h3><p>Future web development certificates will be shown here.</p></div></div></section>
+
+<section id="contact" class="reveal">
+  <h2 class="section-title">Contact Me</h2>
+  <div class="contact-box">
+    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:chhotelalkushwahak9628@gmail.com">chhotelalkushwahak9628@gmail.com</a></p>
+    <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+917317038848">7317038848</a></p>
+    <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/917317038848" target="_blank">7317038848</a></p>
+    <p><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/karan2027" target="_blank">github.com/karan2027</a></p>
+    <p><i class="fa-brands fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/chhotelal-kushwaha-2902a3329" target="_blank">LinkedIn Profile</a></p>
+    <form id="contactForm"><input type="text" id="name" placeholder="Your Name" required><input type="email" id="email" placeholder="Your Email" required><textarea id="message" placeholder="Your Message" required></textarea><button type="submit" class="btn">Send Message</button><p id="formMsg"></p></form>
+  </div>
+</section>
+
+<footer><div class="footer-links"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#contact">Contact</a><a href="assets/resume.pdf" target="_blank">Resume</a></div><p>© 2026 Chhotelal Kushwaha. All Rights Reserved.</p></footer>
+<button id="topBtn">↑</button>
+<div id="galleryModal" class="gallery-modal"><span id="closeGallery">&times;</span><img id="galleryImage" src="" alt="Project Screenshot"><button id="prevImg">❮</button><button id="nextImg">❯</button></div>
+<script src="script.js"></script>
+</body>
+</html>
